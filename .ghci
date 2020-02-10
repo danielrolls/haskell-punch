@@ -1,0 +1,10 @@
+-- Turn off output for resource usage and types.  This is to reduce verbosity when reloading this file.
+:unset +s +t
+
+:set +m -v0
+:seti -w -XOverloadedStrings
+:set editor vim
+
+-- Turn on output of types.  This line should be last.
+:set +t
+
