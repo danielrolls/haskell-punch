@@ -1,4 +1,4 @@
-name:                hyterminal
+name:                haskellpunch
 version:             0.1.0.0
 github:              "danielrolls/hyterminal"
 license:             GPL3
@@ -26,10 +26,10 @@ dependencies:
 - wreq
 
 library:
-  source-dirs: src
+  source-dirs: []
 
 executables:
-  wreq-play-exe:
+  haskell-punch--exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -37,15 +37,4 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - wreq-play
-
-tests:
-  wreq-play-test:
-    main:                Spec.hs
-    source-dirs:         test
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - wreq-play
+    - haskellpunch
