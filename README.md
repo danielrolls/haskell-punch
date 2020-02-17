@@ -1,4 +1,4 @@
-# hyterminal
+# Haskell Punch
 
 A quickstart REPL for Haskell. This gives interactive access to Haskell with nice colours, formatting and some sensible libraries already imported to get started. 
 
