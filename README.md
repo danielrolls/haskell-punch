@@ -9,13 +9,13 @@ The environment, as is, is suitable for:
 
 Sometimes it's best to get started by just getting stuck in and for those wanting to try out Haskell this project makes it really quick to start playing. 
 
-For those already familiar with Haskell this library is nothing more than a light wrapper around ghci with some useful imports and defaults for getting started playing with Haskell. 
+For those already familiar with Haskell this library is nothing more than a light wrapper around ghci with some useful imports and defaults for getting started playing with Haskell. As fun as it is to configure everything from scratch sometimes it's just easier to start from something already working and start customising. Please feel free to raise pull requests for customisations that might be appropriate for general purpose consumption. 
 
 ## Getting started
 1. Install stack by running `curl -sSL https://get.haskellstack.org/ | sh`
 1. `git clone https://github.com/danielrolls/haskell-punch.git`
 1. `cd haskell-punch`
-1. `./repl` (Note: the first time you run this, it will download, build and install the compiler and libraries for you in `~/.stack`. From then on it will be fast. 
+1. `./repl` (Note: the first time you run this, it will download, build and install the compiler and libraries for you in `~/.stack`. From then on it will be fast.)
 
 That's it. It's now time to try it out.
 
