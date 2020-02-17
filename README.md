@@ -13,8 +13,8 @@ For those already familiar with Haskell this library is nothing more than a ligh
 
 ## Getting started
 1. Install stack by running `curl -sSL https://get.haskellstack.org/ | sh`
-1. `git clone https://github.com/danielrolls/hyterminal.git`
-1. `cd hyterminal`
+1. `git clone https://github.com/danielrolls/haskell-punch.git`
+1. `cd haskell-punch`
 1. `./repl` (Note: the first time you run this, it will download, build and install the compiler and libraries for you in `~/.stack`. From then on it will be fast. 
 
 That's it. It's now time to try it out.
