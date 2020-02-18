@@ -22,7 +22,7 @@ That's it. It's now time to try it out.
 ## Simple examples to try
 - Enter `3 + 4`. Go to [Learn you a Haskell](http://learnyouahaskell.com/) to continue the fun.
 - Enter `response <- get "https://newton.now.sh/factor/x^2-1"` followed by `response ^? responseBody . key "result" . _String`. See this [Wreq tutorial](http://www.serpentine.com/wreq/tutorial.html) to continue the fun.
-- Enter `import Turtle`. Then run `view (ls "/")`. See the [Official Turtle tutorial](https://hackage.haskell.org/package/turtle-1.5.16/docs/Turtle-Tutorial.html) to continue the fun.
+- Enter `import Turtle`. Then run `Turtle.view (ls "/")`. See the [Official Turtle tutorial](https://hackage.haskell.org/package/turtle-1.5.16/docs/Turtle-Tutorial.html) to continue the fun.
 
 Wreq and Turtle are great for just getting started without getting bogged down with reading. Learn You a Haskell is a great tutorial at starts with the basics and slowly builds. 
 
