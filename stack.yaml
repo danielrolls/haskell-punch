@@ -1,8 +1,6 @@
-resolver: lts-14.22
+resolver: lts-15.0
 
 packages:
 - .
 
-extra-deps:
-- github-0.24@sha256:4bf5a06289d36f78bf347b6a4f9906f659be7335cde78386a6c95568714a730b,6955
-- binary-instances-1@sha256:b17565598b8df3241f9b46fa8e3a3368ecc8e3f2eb175d7c28f319042a6f5c79,2613 # for github
+extra-deps: []
