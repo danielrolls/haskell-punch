@@ -10,6 +10,7 @@ import System.Process (readProcessWithExitCode)
 import qualified Data.ByteString.Char8 as BS
 import qualified Data.ByteString.Lazy.Char8 as LBS
 import qualified Control.Foldl as Fold
+import System.Pager
 
 main :: IO ()
 main = print "Nothing to see"
